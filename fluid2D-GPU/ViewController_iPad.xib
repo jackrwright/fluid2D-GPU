@@ -249,7 +249,7 @@
                     <rect key="frame" x="786" y="544" width="213" height="29"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <segments>
-                        <segment title="Ink"/>
+                        <segment title="Ink" enabled="NO"/>
                         <segment title="Smoke"/>
                         <segment title="Fire"/>
                     </segments>
@@ -290,7 +290,7 @@
                     </connections>
                 </segmentedControl>
             </subviews>
-            <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
             <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

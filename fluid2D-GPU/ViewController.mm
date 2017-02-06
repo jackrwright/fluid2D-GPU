@@ -108,7 +108,7 @@ static COLOR source;
 	userVorticity = 0.3;
 	userDissipation = 1.0;
 	userTemperature = 0.0;
-	userMedium = 0;		// ink
+	userMedium = 1;		// smoke
 	
 	// Configure the controls with the defaults...
 	
@@ -139,11 +139,12 @@ static COLOR source;
 	// default to Blend
 	[self.blendMode setSelectedSegmentIndex:userBlendMode];
 	
-	[self.medium setSelectedSegmentIndex:userMedium];
-	
     [EAGLContext setCurrentContext:self.context];
     
 	[self setupGL];
+	
+	[self.medium setSelectedSegmentIndex:userMedium];
+	[self changeMediumTo:userMedium];
 	
 	// for the image picker...
 	
@@ -517,15 +518,9 @@ static GLfloat sim_uvCoords[8];
 } // displayOptionChanged
 
 
-- (IBAction) mediumChanged:(id) sender
+- (void) changeMediumTo:(NSInteger) theMedium
 {
-	
-	UISegmentedControl *_segmentedControl = (UISegmentedControl *)sender;
-	NSInteger selection = _segmentedControl.selectedSegmentIndex;
-	
-	userMedium = selection;
-	
-	switch (userMedium) {
+	switch (theMedium) {
 		case 0:
 			// ink
 			_theFluidObject.isFire = NO;
@@ -560,6 +555,19 @@ static GLfloat sim_uvCoords[8];
 			[self setTemperature:5.0];
 			break;
 	}
+}
+
+
+- (IBAction) mediumChanged:(id) sender
+{
+	
+	UISegmentedControl *_segmentedControl = (UISegmentedControl *)sender;
+	NSInteger selection = _segmentedControl.selectedSegmentIndex;
+	
+	userMedium = selection;
+	
+	[self changeMediumTo:userMedium];
+	
 	
 } // mediumChanged
 

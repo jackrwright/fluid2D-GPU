@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		214DE2DA1E48FD68004B651D /* fluid2D-GPU.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2D91E48FD68004B651D /* fluid2D-GPU.xcassets */; };
-		214DE2DC1E48FEDA004B651D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */; };
 		214DE2E91E490746004B651D /* ColorPickerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 214DE2E11E490746004B651D /* ColorPickerController.mm */; };
 		214DE2EA1E490746004B651D /* CrosshairSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2E21E490746004B651D /* CrosshairSelector.png */; };
 		214DE2EB1E490746004B651D /* CrosshairSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2E31E490746004B651D /* CrosshairSelector@2x.png */; };
@@ -61,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		214DE2D91E48FD68004B651D /* fluid2D-GPU.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "fluid2D-GPU.xcassets"; sourceTree = SOURCE_ROOT; };
-		214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		214DE2E01E490746004B651D /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
 		214DE2E11E490746004B651D /* ColorPickerController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorPickerController.mm; sourceTree = "<group>"; };
 		214DE2E21E490746004B651D /* CrosshairSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrosshairSelector.png; sourceTree = "<group>"; };
@@ -122,6 +120,7 @@
 		2193D88016FA8FB1007BA1BC /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 		2193D88116FA8FB2007BA1BC /* Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shader.m; sourceTree = "<group>"; };
 		2193D88316FA8FD6007BA1BC /* glUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
+		219A03351E491A8100064C37 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +200,7 @@
 		2193D7E416FA84B5007BA1BC = {
 			isa = PBXGroup;
 			children = (
+				219A03351E491A8100064C37 /* README.md */,
 				2193D7FA16FA84B5007BA1BC /* fluid2D-GPU */,
 				214DE2DF1E490746004B651D /* Color Picker */,
 				214DE2F01E490761004B651D /* Fluid2DObject */,
@@ -259,7 +259,6 @@
 				2193D7FD16FA84B5007BA1BC /* InfoPlist.strings */,
 				2193D80016FA84B5007BA1BC /* main.m */,
 				2193D80216FA84B5007BA1BC /* fluid2D-GPU-Prefix.pch */,
-				214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -327,7 +326,6 @@
 				214DE30D1E490761004B651D /* fireTex1d.png in Resources */,
 				214DE3251E490761004B651D /* vorticity.plist in Resources */,
 				214DE3211E490761004B651D /* splat.plist in Resources */,
-				214DE2DC1E48FEDA004B651D /* Launch Screen.storyboard in Resources */,
 				214DE31B1E490761004B651D /* jacobi.plist in Resources */,
 				214DE31E1E490761004B651D /* present.fsh in Resources */,
 				214DE2EB1E490746004B651D /* CrosshairSelector@2x.png in Resources */,
