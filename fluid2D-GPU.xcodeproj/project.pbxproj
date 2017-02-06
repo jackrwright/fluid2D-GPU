@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214DE2DA1E48FD68004B651D /* fluid2D-GPU.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2D91E48FD68004B651D /* fluid2D-GPU.xcassets */; };
+		214DE2DC1E48FEDA004B651D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */; };
 		2167E6A816FB9CF300EBA3B9 /* present.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6A616FB9CF300EBA3B9 /* present.plist */; };
 		2167E6A916FB9CF300EBA3B9 /* present.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6A716FB9CF300EBA3B9 /* present.fsh */; };
 		2167E6AC16FB9D0700EBA3B9 /* present.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6AB16FB9D0700EBA3B9 /* present.vsh */; };
@@ -18,9 +20,6 @@
 		2193D7FF16FA84B5007BA1BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2193D7FD16FA84B5007BA1BC /* InfoPlist.strings */; };
 		2193D80116FA84B5007BA1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D80016FA84B5007BA1BC /* main.m */; };
 		2193D80516FA84B5007BA1BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D80416FA84B5007BA1BC /* AppDelegate.m */; };
-		2193D80716FA84B5007BA1BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D80616FA84B5007BA1BC /* Default.png */; };
-		2193D80916FA84B5007BA1BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D80816FA84B5007BA1BC /* Default@2x.png */; };
-		2193D80B16FA84B5007BA1BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D80A16FA84B5007BA1BC /* Default-568h@2x.png */; };
 		2193D81216FA84B5007BA1BC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D81116FA84B5007BA1BC /* ViewController.mm */; };
 		2193D82816FA867E007BA1BC /* ColorPickerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D82016FA867E007BA1BC /* ColorPickerController.mm */; };
 		2193D82916FA867E007BA1BC /* CrosshairSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82116FA867E007BA1BC /* CrosshairSelector.png */; };
@@ -69,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		214DE2D91E48FD68004B651D /* fluid2D-GPU.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "fluid2D-GPU.xcassets"; sourceTree = SOURCE_ROOT; };
+		214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		2167E6A616FB9CF300EBA3B9 /* present.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = present.plist; sourceTree = "<group>"; };
 		2167E6A716FB9CF300EBA3B9 /* present.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = present.fsh; sourceTree = "<group>"; };
 		2167E6AB16FB9D0700EBA3B9 /* present.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = present.vsh; sourceTree = "<group>"; };
@@ -84,9 +85,6 @@
 		2193D80216FA84B5007BA1BC /* fluid2D-GPU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fluid2D-GPU-Prefix.pch"; sourceTree = "<group>"; };
 		2193D80316FA84B5007BA1BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2193D80416FA84B5007BA1BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2193D80616FA84B5007BA1BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2193D80816FA84B5007BA1BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2193D80A16FA84B5007BA1BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2193D81016FA84B5007BA1BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2193D81116FA84B5007BA1BC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		2193D81F16FA867E007BA1BC /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
@@ -206,13 +204,12 @@
 		2193D7FB16FA84B5007BA1BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				214DE2D91E48FD68004B651D /* fluid2D-GPU.xcassets */,
 				2193D7FC16FA84B5007BA1BC /* fluid2D-GPU-Info.plist */,
 				2193D7FD16FA84B5007BA1BC /* InfoPlist.strings */,
 				2193D80016FA84B5007BA1BC /* main.m */,
 				2193D80216FA84B5007BA1BC /* fluid2D-GPU-Prefix.pch */,
-				2193D80616FA84B5007BA1BC /* Default.png */,
-				2193D80816FA84B5007BA1BC /* Default@2x.png */,
-				2193D80A16FA84B5007BA1BC /* Default-568h@2x.png */,
+				214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -363,13 +360,12 @@
 				2193D86016FA89AC007BA1BC /* divergence.fsh in Resources */,
 				2193D86216FA89AC007BA1BC /* gradient.fsh in Resources */,
 				2193D86416FA89AC007BA1BC /* jacobi.fsh in Resources */,
+				214DE2DC1E48FEDA004B651D /* Launch Screen.storyboard in Resources */,
 				2193D86616FA89AC007BA1BC /* obstacles.fsh in Resources */,
+				214DE2DA1E48FD68004B651D /* fluid2D-GPU.xcassets in Resources */,
 				2193D86A16FA89AC007BA1BC /* splat.fsh in Resources */,
 				2193D86C16FA89AC007BA1BC /* vortForce.fsh in Resources */,
 				2193D86E16FA89AC007BA1BC /* vorticity.fsh in Resources */,
-				2193D80716FA84B5007BA1BC /* Default.png in Resources */,
-				2193D80916FA84B5007BA1BC /* Default@2x.png in Resources */,
-				2193D80B16FA84B5007BA1BC /* Default-568h@2x.png in Resources */,
 				2193D82916FA867E007BA1BC /* CrosshairSelector.png in Resources */,
 				2193D82A16FA867E007BA1BC /* CrosshairSelector@2x.png in Resources */,
 				2193D82C16FA867E007BA1BC /* HorizontalSelector.png in Resources */,
@@ -461,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,6 +504,8 @@
 		2193D81C16FA84B5007BA1BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -522,6 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackcraft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,6 +528,8 @@
 		2193D81D16FA84B5007BA1BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -543,6 +544,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jackcraft.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
