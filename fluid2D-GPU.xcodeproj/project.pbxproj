@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2167E6A816FB9CF300EBA3B9 /* present.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6A616FB9CF300EBA3B9 /* present.plist */; };
+		2167E6A916FB9CF300EBA3B9 /* present.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6A716FB9CF300EBA3B9 /* present.fsh */; };
+		2167E6AC16FB9D0700EBA3B9 /* present.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6AB16FB9D0700EBA3B9 /* present.vsh */; };
+		2193D7F116FA84B5007BA1BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2193D7F016FA84B5007BA1BC /* UIKit.framework */; };
+		2193D7F316FA84B5007BA1BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2193D7F216FA84B5007BA1BC /* Foundation.framework */; };
+		2193D7F516FA84B5007BA1BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2193D7F416FA84B5007BA1BC /* CoreGraphics.framework */; };
+		2193D7F716FA84B5007BA1BC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2193D7F616FA84B5007BA1BC /* GLKit.framework */; };
+		2193D7F916FA84B5007BA1BC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2193D7F816FA84B5007BA1BC /* OpenGLES.framework */; };
+		2193D7FF16FA84B5007BA1BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2193D7FD16FA84B5007BA1BC /* InfoPlist.strings */; };
+		2193D80116FA84B5007BA1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D80016FA84B5007BA1BC /* main.m */; };
+		2193D80516FA84B5007BA1BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D80416FA84B5007BA1BC /* AppDelegate.m */; };
+		2193D80716FA84B5007BA1BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D80616FA84B5007BA1BC /* Default.png */; };
+		2193D80916FA84B5007BA1BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D80816FA84B5007BA1BC /* Default@2x.png */; };
+		2193D80B16FA84B5007BA1BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D80A16FA84B5007BA1BC /* Default-568h@2x.png */; };
+		2193D81216FA84B5007BA1BC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D81116FA84B5007BA1BC /* ViewController.mm */; };
+		2193D82816FA867E007BA1BC /* ColorPickerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D82016FA867E007BA1BC /* ColorPickerController.mm */; };
+		2193D82916FA867E007BA1BC /* CrosshairSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82116FA867E007BA1BC /* CrosshairSelector.png */; };
+		2193D82A16FA867E007BA1BC /* CrosshairSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82216FA867E007BA1BC /* CrosshairSelector@2x.png */; };
+		2193D82B16FA867E007BA1BC /* GradientView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D82416FA867E007BA1BC /* GradientView.mm */; };
+		2193D82C16FA867E007BA1BC /* HorizontalSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82516FA867E007BA1BC /* HorizontalSelector.png */; };
+		2193D82D16FA867E007BA1BC /* HorizontalSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82616FA867E007BA1BC /* HorizontalSelector@2x.png */; };
+		2193D82E16FA867E007BA1BC /* HueSaturationGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82716FA867E007BA1BC /* HueSaturationGradient.png */; };
+		2193D85716FA89AC007BA1BC /* fireTex1d.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D83C16FA89AC007BA1BC /* fireTex1d.png */; };
+		2193D85816FA89AC007BA1BC /* Fluid2DObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D83E16FA89AC007BA1BC /* Fluid2DObject.mm */; };
+		2193D85916FA89AC007BA1BC /* advect.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84016FA89AC007BA1BC /* advect.fsh */; };
+		2193D85A16FA89AC007BA1BC /* advect.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84116FA89AC007BA1BC /* advect.plist */; };
+		2193D85B16FA89AC007BA1BC /* boundary.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84216FA89AC007BA1BC /* boundary.fsh */; };
+		2193D85C16FA89AC007BA1BC /* boundary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84316FA89AC007BA1BC /* boundary.plist */; };
+		2193D85D16FA89AC007BA1BC /* display.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84416FA89AC007BA1BC /* display.fsh */; };
+		2193D85E16FA89AC007BA1BC /* display.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84516FA89AC007BA1BC /* display.plist */; };
+		2193D85F16FA89AC007BA1BC /* display.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84616FA89AC007BA1BC /* display.vsh */; };
+		2193D86016FA89AC007BA1BC /* divergence.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84716FA89AC007BA1BC /* divergence.fsh */; };
+		2193D86116FA89AC007BA1BC /* divergence.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84816FA89AC007BA1BC /* divergence.plist */; };
+		2193D86216FA89AC007BA1BC /* gradient.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84916FA89AC007BA1BC /* gradient.fsh */; };
+		2193D86316FA89AC007BA1BC /* gradient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84A16FA89AC007BA1BC /* gradient.plist */; };
+		2193D86416FA89AC007BA1BC /* jacobi.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84B16FA89AC007BA1BC /* jacobi.fsh */; };
+		2193D86516FA89AC007BA1BC /* jacobi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84C16FA89AC007BA1BC /* jacobi.plist */; };
+		2193D86616FA89AC007BA1BC /* obstacles.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84D16FA89AC007BA1BC /* obstacles.fsh */; };
+		2193D86716FA89AC007BA1BC /* obstacles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84E16FA89AC007BA1BC /* obstacles.plist */; };
+		2193D86A16FA89AC007BA1BC /* splat.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85116FA89AC007BA1BC /* splat.fsh */; };
+		2193D86B16FA89AC007BA1BC /* splat.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85216FA89AC007BA1BC /* splat.plist */; };
+		2193D86C16FA89AC007BA1BC /* vortForce.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85316FA89AC007BA1BC /* vortForce.fsh */; };
+		2193D86D16FA89AC007BA1BC /* vortForce.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85416FA89AC007BA1BC /* vortForce.plist */; };
+		2193D86E16FA89AC007BA1BC /* vorticity.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85516FA89AC007BA1BC /* vorticity.fsh */; };
+		2193D86F16FA89AC007BA1BC /* vorticity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85616FA89AC007BA1BC /* vorticity.plist */; };
+		2193D87216FA8D49007BA1BC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2193D87016FA8D49007BA1BC /* ViewController_iPhone.xib */; };
+		2193D87316FA8D49007BA1BC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2193D87116FA8D49007BA1BC /* ViewController_iPad.xib */; };
+		2193D87616FA8DE7007BA1BC /* Finger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D87516FA8DE7007BA1BC /* Finger.mm */; };
+		2193D88216FA8FB2007BA1BC /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D88116FA8FB2007BA1BC /* Shader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2193D87B16FA8E76007BA1BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */;
+			proxyType = 2;
+			remoteGlobalIDString = F8748A3A0FF221480052D400;
+			remoteInfo = OGLES2Tools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2167E6A616FB9CF300EBA3B9 /* present.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = present.plist; sourceTree = "<group>"; };
+		2167E6A716FB9CF300EBA3B9 /* present.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = present.fsh; sourceTree = "<group>"; };
+		2167E6AB16FB9D0700EBA3B9 /* present.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = present.vsh; sourceTree = "<group>"; };
+		2193D7ED16FA84B5007BA1BC /* fluid2D-GPU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fluid2D-GPU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2193D7F016FA84B5007BA1BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2193D7F216FA84B5007BA1BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2193D7F416FA84B5007BA1BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2193D7F616FA84B5007BA1BC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2193D7F816FA84B5007BA1BC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2193D7FC16FA84B5007BA1BC /* fluid2D-GPU-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fluid2D-GPU-Info.plist"; sourceTree = "<group>"; };
+		2193D7FE16FA84B5007BA1BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2193D80016FA84B5007BA1BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2193D80216FA84B5007BA1BC /* fluid2D-GPU-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fluid2D-GPU-Prefix.pch"; sourceTree = "<group>"; };
+		2193D80316FA84B5007BA1BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2193D80416FA84B5007BA1BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2193D80616FA84B5007BA1BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2193D80816FA84B5007BA1BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2193D80A16FA84B5007BA1BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2193D81016FA84B5007BA1BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2193D81116FA84B5007BA1BC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		2193D81F16FA867E007BA1BC /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
+		2193D82016FA867E007BA1BC /* ColorPickerController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorPickerController.mm; sourceTree = "<group>"; };
+		2193D82116FA867E007BA1BC /* CrosshairSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrosshairSelector.png; sourceTree = "<group>"; };
+		2193D82216FA867E007BA1BC /* CrosshairSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrosshairSelector@2x.png"; sourceTree = "<group>"; };
+		2193D82316FA867E007BA1BC /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		2193D82416FA867E007BA1BC /* GradientView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GradientView.mm; sourceTree = "<group>"; };
+		2193D82516FA867E007BA1BC /* HorizontalSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalSelector.png; sourceTree = "<group>"; };
+		2193D82616FA867E007BA1BC /* HorizontalSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HorizontalSelector@2x.png"; sourceTree = "<group>"; };
+		2193D82716FA867E007BA1BC /* HueSaturationGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HueSaturationGradient.png; sourceTree = "<group>"; };
+		2193D83C16FA89AC007BA1BC /* fireTex1d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireTex1d.png; sourceTree = "<group>"; };
+		2193D83D16FA89AC007BA1BC /* Fluid2DObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fluid2DObject.h; sourceTree = "<group>"; };
+		2193D83E16FA89AC007BA1BC /* Fluid2DObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Fluid2DObject.mm; sourceTree = "<group>"; };
+		2193D84016FA89AC007BA1BC /* advect.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = advect.fsh; sourceTree = "<group>"; };
+		2193D84116FA89AC007BA1BC /* advect.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = advect.plist; sourceTree = "<group>"; };
+		2193D84216FA89AC007BA1BC /* boundary.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = boundary.fsh; sourceTree = "<group>"; };
+		2193D84316FA89AC007BA1BC /* boundary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = boundary.plist; sourceTree = "<group>"; };
+		2193D84416FA89AC007BA1BC /* display.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = display.fsh; sourceTree = "<group>"; };
+		2193D84516FA89AC007BA1BC /* display.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = display.plist; sourceTree = "<group>"; };
+		2193D84616FA89AC007BA1BC /* display.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = display.vsh; sourceTree = "<group>"; };
+		2193D84716FA89AC007BA1BC /* divergence.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = divergence.fsh; sourceTree = "<group>"; };
+		2193D84816FA89AC007BA1BC /* divergence.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = divergence.plist; sourceTree = "<group>"; };
+		2193D84916FA89AC007BA1BC /* gradient.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = gradient.fsh; sourceTree = "<group>"; };
+		2193D84A16FA89AC007BA1BC /* gradient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gradient.plist; sourceTree = "<group>"; };
+		2193D84B16FA89AC007BA1BC /* jacobi.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = jacobi.fsh; sourceTree = "<group>"; };
+		2193D84C16FA89AC007BA1BC /* jacobi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jacobi.plist; sourceTree = "<group>"; };
+		2193D84D16FA89AC007BA1BC /* obstacles.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = obstacles.fsh; sourceTree = "<group>"; };
+		2193D84E16FA89AC007BA1BC /* obstacles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = obstacles.plist; sourceTree = "<group>"; };
+		2193D85116FA89AC007BA1BC /* splat.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = splat.fsh; sourceTree = "<group>"; };
+		2193D85216FA89AC007BA1BC /* splat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = splat.plist; sourceTree = "<group>"; };
+		2193D85316FA89AC007BA1BC /* vortForce.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vortForce.fsh; sourceTree = "<group>"; };
+		2193D85416FA89AC007BA1BC /* vortForce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vortForce.plist; sourceTree = "<group>"; };
+		2193D85516FA89AC007BA1BC /* vorticity.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vorticity.fsh; sourceTree = "<group>"; };
+		2193D85616FA89AC007BA1BC /* vorticity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vorticity.plist; sourceTree = "<group>"; };
+		2193D87016FA8D49007BA1BC /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		2193D87116FA8D49007BA1BC /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
+		2193D87416FA8DE7007BA1BC /* Finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finger.h; sourceTree = "<group>"; };
+		2193D87516FA8DE7007BA1BC /* Finger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Finger.mm; sourceTree = "<group>"; };
+		2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OGLES2Tools.xcode; path = ../SDKPackage_OGLES2/Tools/OGLES2/Build/iPhone/OGLES2Tools.xcode; sourceTree = "<group>"; };
+		2193D88016FA8FB1007BA1BC /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		2193D88116FA8FB2007BA1BC /* Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shader.m; sourceTree = "<group>"; };
+		2193D88316FA8FD6007BA1BC /* glUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
+		2193D88416FA904A007BA1BC /* half.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = half.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2193D7EA16FA84B5007BA1BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2193D7F116FA84B5007BA1BC /* UIKit.framework in Frameworks */,
+				2193D7F316FA84B5007BA1BC /* Foundation.framework in Frameworks */,
+				2193D7F516FA84B5007BA1BC /* CoreGraphics.framework in Frameworks */,
+				2193D7F716FA84B5007BA1BC /* GLKit.framework in Frameworks */,
+				2193D7F916FA84B5007BA1BC /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2193D7E416FA84B5007BA1BC = {
+			isa = PBXGroup;
+			children = (
+				2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */,
+				2193D7FA16FA84B5007BA1BC /* fluid2D-GPU */,
+				2193D81E16FA867E007BA1BC /* Color Picker */,
+				2193D83B16FA89AC007BA1BC /* Fluid2DObject */,
+				2193D7EF16FA84B5007BA1BC /* Frameworks */,
+				2193D7EE16FA84B5007BA1BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2193D7EE16FA84B5007BA1BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2193D7ED16FA84B5007BA1BC /* fluid2D-GPU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2193D7EF16FA84B5007BA1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2193D7F016FA84B5007BA1BC /* UIKit.framework */,
+				2193D7F216FA84B5007BA1BC /* Foundation.framework */,
+				2193D7F416FA84B5007BA1BC /* CoreGraphics.framework */,
+				2193D7F616FA84B5007BA1BC /* GLKit.framework */,
+				2193D7F816FA84B5007BA1BC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2193D7FA16FA84B5007BA1BC /* fluid2D-GPU */ = {
+			isa = PBXGroup;
+			children = (
+				2193D80316FA84B5007BA1BC /* AppDelegate.h */,
+				2193D80416FA84B5007BA1BC /* AppDelegate.m */,
+				2193D87416FA8DE7007BA1BC /* Finger.h */,
+				2193D87516FA8DE7007BA1BC /* Finger.mm */,
+				2193D88316FA8FD6007BA1BC /* glUtil.h */,
+				2193D88016FA8FB1007BA1BC /* Shader.h */,
+				2193D88116FA8FB2007BA1BC /* Shader.m */,
+				2193D81016FA84B5007BA1BC /* ViewController.h */,
+				2193D81116FA84B5007BA1BC /* ViewController.mm */,
+				2167E6A616FB9CF300EBA3B9 /* present.plist */,
+				2167E6AB16FB9D0700EBA3B9 /* present.vsh */,
+				2167E6A716FB9CF300EBA3B9 /* present.fsh */,
+				2193D87016FA8D49007BA1BC /* ViewController_iPhone.xib */,
+				2193D87116FA8D49007BA1BC /* ViewController_iPad.xib */,
+				2193D7FB16FA84B5007BA1BC /* Supporting Files */,
+			);
+			path = "fluid2D-GPU";
+			sourceTree = "<group>";
+		};
+		2193D7FB16FA84B5007BA1BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2193D7FC16FA84B5007BA1BC /* fluid2D-GPU-Info.plist */,
+				2193D7FD16FA84B5007BA1BC /* InfoPlist.strings */,
+				2193D80016FA84B5007BA1BC /* main.m */,
+				2193D80216FA84B5007BA1BC /* fluid2D-GPU-Prefix.pch */,
+				2193D80616FA84B5007BA1BC /* Default.png */,
+				2193D80816FA84B5007BA1BC /* Default@2x.png */,
+				2193D80A16FA84B5007BA1BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2193D81E16FA867E007BA1BC /* Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				2193D81F16FA867E007BA1BC /* ColorPickerController.h */,
+				2193D82016FA867E007BA1BC /* ColorPickerController.mm */,
+				2193D82116FA867E007BA1BC /* CrosshairSelector.png */,
+				2193D82216FA867E007BA1BC /* CrosshairSelector@2x.png */,
+				2193D82316FA867E007BA1BC /* GradientView.h */,
+				2193D82416FA867E007BA1BC /* GradientView.mm */,
+				2193D82516FA867E007BA1BC /* HorizontalSelector.png */,
+				2193D82616FA867E007BA1BC /* HorizontalSelector@2x.png */,
+				2193D82716FA867E007BA1BC /* HueSaturationGradient.png */,
+			);
+			name = "Color Picker";
+			path = "../Color Picker";
+			sourceTree = "<group>";
+		};
+		2193D83B16FA89AC007BA1BC /* Fluid2DObject */ = {
+			isa = PBXGroup;
+			children = (
+				2193D83D16FA89AC007BA1BC /* Fluid2DObject.h */,
+				2193D83E16FA89AC007BA1BC /* Fluid2DObject.mm */,
+				2193D83C16FA89AC007BA1BC /* fireTex1d.png */,
+				2193D88416FA904A007BA1BC /* half.h */,
+				2193D83F16FA89AC007BA1BC /* Shaders */,
+			);
+			name = Fluid2DObject;
+			path = ../Fluid2DObject;
+			sourceTree = "<group>";
+		};
+		2193D83F16FA89AC007BA1BC /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				2193D84016FA89AC007BA1BC /* advect.fsh */,
+				2193D84116FA89AC007BA1BC /* advect.plist */,
+				2193D84216FA89AC007BA1BC /* boundary.fsh */,
+				2193D84316FA89AC007BA1BC /* boundary.plist */,
+				2193D84416FA89AC007BA1BC /* display.fsh */,
+				2193D84516FA89AC007BA1BC /* display.plist */,
+				2193D84616FA89AC007BA1BC /* display.vsh */,
+				2193D84716FA89AC007BA1BC /* divergence.fsh */,
+				2193D84816FA89AC007BA1BC /* divergence.plist */,
+				2193D84916FA89AC007BA1BC /* gradient.fsh */,
+				2193D84A16FA89AC007BA1BC /* gradient.plist */,
+				2193D84B16FA89AC007BA1BC /* jacobi.fsh */,
+				2193D84C16FA89AC007BA1BC /* jacobi.plist */,
+				2193D84D16FA89AC007BA1BC /* obstacles.fsh */,
+				2193D84E16FA89AC007BA1BC /* obstacles.plist */,
+				2193D85116FA89AC007BA1BC /* splat.fsh */,
+				2193D85216FA89AC007BA1BC /* splat.plist */,
+				2193D85316FA89AC007BA1BC /* vortForce.fsh */,
+				2193D85416FA89AC007BA1BC /* vortForce.plist */,
+				2193D85516FA89AC007BA1BC /* vorticity.fsh */,
+				2193D85616FA89AC007BA1BC /* vorticity.plist */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		2193D87816FA8E76007BA1BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2193D87C16FA8E76007BA1BC /* libOGLES2Tools.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2193D7EC16FA84B5007BA1BC /* fluid2D-GPU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2193D81B16FA84B5007BA1BC /* Build configuration list for PBXNativeTarget "fluid2D-GPU" */;
+			buildPhases = (
+				2193D7E916FA84B5007BA1BC /* Sources */,
+				2193D7EA16FA84B5007BA1BC /* Frameworks */,
+				2193D7EB16FA84B5007BA1BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fluid2D-GPU";
+			productName = "fluid2D-GPU";
+			productReference = 2193D7ED16FA84B5007BA1BC /* fluid2D-GPU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2193D7E516FA84B5007BA1BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jack Wright";
+				TargetAttributes = {
+					2193D7EC16FA84B5007BA1BC = {
+						DevelopmentTeam = 7BATW2E53G;
+					};
+				};
+			};
+			buildConfigurationList = 2193D7E816FA84B5007BA1BC /* Build configuration list for PBXProject "fluid2D-GPU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2193D7E416FA84B5007BA1BC;
+			productRefGroup = 2193D7EE16FA84B5007BA1BC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2193D87816FA8E76007BA1BC /* Products */;
+					ProjectRef = 2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2193D7EC16FA84B5007BA1BC /* fluid2D-GPU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2193D87C16FA8E76007BA1BC /* libOGLES2Tools.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOGLES2Tools.a;
+			remoteRef = 2193D87B16FA8E76007BA1BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2193D7EB16FA84B5007BA1BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2193D7FF16FA84B5007BA1BC /* InfoPlist.strings in Resources */,
+				2193D85916FA89AC007BA1BC /* advect.fsh in Resources */,
+				2193D85B16FA89AC007BA1BC /* boundary.fsh in Resources */,
+				2193D85D16FA89AC007BA1BC /* display.fsh in Resources */,
+				2193D85F16FA89AC007BA1BC /* display.vsh in Resources */,
+				2193D86016FA89AC007BA1BC /* divergence.fsh in Resources */,
+				2193D86216FA89AC007BA1BC /* gradient.fsh in Resources */,
+				2193D86416FA89AC007BA1BC /* jacobi.fsh in Resources */,
+				2193D86616FA89AC007BA1BC /* obstacles.fsh in Resources */,
+				2193D86A16FA89AC007BA1BC /* splat.fsh in Resources */,
+				2193D86C16FA89AC007BA1BC /* vortForce.fsh in Resources */,
+				2193D86E16FA89AC007BA1BC /* vorticity.fsh in Resources */,
+				2193D80716FA84B5007BA1BC /* Default.png in Resources */,
+				2193D80916FA84B5007BA1BC /* Default@2x.png in Resources */,
+				2193D80B16FA84B5007BA1BC /* Default-568h@2x.png in Resources */,
+				2193D82916FA867E007BA1BC /* CrosshairSelector.png in Resources */,
+				2193D82A16FA867E007BA1BC /* CrosshairSelector@2x.png in Resources */,
+				2193D82C16FA867E007BA1BC /* HorizontalSelector.png in Resources */,
+				2193D82D16FA867E007BA1BC /* HorizontalSelector@2x.png in Resources */,
+				2193D82E16FA867E007BA1BC /* HueSaturationGradient.png in Resources */,
+				2193D85716FA89AC007BA1BC /* fireTex1d.png in Resources */,
+				2193D85A16FA89AC007BA1BC /* advect.plist in Resources */,
+				2193D85C16FA89AC007BA1BC /* boundary.plist in Resources */,
+				2193D85E16FA89AC007BA1BC /* display.plist in Resources */,
+				2193D86116FA89AC007BA1BC /* divergence.plist in Resources */,
+				2193D86316FA89AC007BA1BC /* gradient.plist in Resources */,
+				2193D86516FA89AC007BA1BC /* jacobi.plist in Resources */,
+				2193D86716FA89AC007BA1BC /* obstacles.plist in Resources */,
+				2193D86B16FA89AC007BA1BC /* splat.plist in Resources */,
+				2193D86D16FA89AC007BA1BC /* vortForce.plist in Resources */,
+				2193D86F16FA89AC007BA1BC /* vorticity.plist in Resources */,
+				2193D87216FA8D49007BA1BC /* ViewController_iPhone.xib in Resources */,
+				2193D87316FA8D49007BA1BC /* ViewController_iPad.xib in Resources */,
+				2167E6A816FB9CF300EBA3B9 /* present.plist in Resources */,
+				2167E6A916FB9CF300EBA3B9 /* present.fsh in Resources */,
+				2167E6AC16FB9D0700EBA3B9 /* present.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2193D7E916FA84B5007BA1BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2193D80116FA84B5007BA1BC /* main.m in Sources */,
+				2193D80516FA84B5007BA1BC /* AppDelegate.m in Sources */,
+				2193D81216FA84B5007BA1BC /* ViewController.mm in Sources */,
+				2193D82816FA867E007BA1BC /* ColorPickerController.mm in Sources */,
+				2193D82B16FA867E007BA1BC /* GradientView.mm in Sources */,
+				2193D85816FA89AC007BA1BC /* Fluid2DObject.mm in Sources */,
+				2193D87616FA8DE7007BA1BC /* Finger.mm in Sources */,
+				2193D88216FA8FB2007BA1BC /* Shader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2193D7FD16FA84B5007BA1BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2193D7FE16FA84B5007BA1BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2193D81916FA84B5007BA1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		2193D81A16FA84B5007BA1BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		2193D81C16FA84B5007BA1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fluid2D-GPU/fluid2D-GPU-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Users/jwright/code/iPhone/SDKPackage_OGLES2/Include,
+					/Users/jwright/code/iPhone/SDKPackage_OGLES2/Tools/OGLES2,
+					/Users/jwright/code/iPhone/SDKPackage_OGLES2/Tools,
+				);
+				INFOPLIST_FILE = "fluid2D-GPU/fluid2D-GPU-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackcraft.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2193D81D16FA84B5007BA1BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fluid2D-GPU/fluid2D-GPU-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					/Users/jwright/code/iPhone/SDKPackage_OGLES2/Include,
+					/Users/jwright/code/iPhone/SDKPackage_OGLES2/Tools/OGLES2,
+					/Users/jwright/code/iPhone/SDKPackage_OGLES2/Tools,
+				);
+				INFOPLIST_FILE = "fluid2D-GPU/fluid2D-GPU-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jackcraft.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2193D7E816FA84B5007BA1BC /* Build configuration list for PBXProject "fluid2D-GPU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2193D81916FA84B5007BA1BC /* Debug */,
+				2193D81A16FA84B5007BA1BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2193D81B16FA84B5007BA1BC /* Build configuration list for PBXNativeTarget "fluid2D-GPU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2193D81C16FA84B5007BA1BC /* Debug */,
+				2193D81D16FA84B5007BA1BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2193D7E516FA84B5007BA1BC /* Project object */;
+}

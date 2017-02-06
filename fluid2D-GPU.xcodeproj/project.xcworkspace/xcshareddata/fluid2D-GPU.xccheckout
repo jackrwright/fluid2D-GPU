@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8D3C551C-C1E1-48D5-994C-11606BEAAC70</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8f9fe876-a73c-431a-89c3-31d8cb048571++8215</key>
+		<string>svn+ssh://mini.local/Library/Subversion/Repository/fluid2DObject/trunk/Fluid2DObject</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8f9fe876-a73c-431a-89c3-31d8cb048571++8215</key>
+		<string>Fluid2DObject/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>8f9fe876-a73c-431a-89c3-31d8cb048571++8215</key>
+		<string>svn+ssh://mini.local/Library/Subversion/Repository/fluid2DObject</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn+ssh://mini.local/Library/Subversion/Repository/fluid2DObject/trunk/Fluid2DObject</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8f9fe876-a73c-431a-89c3-31d8cb048571++8215</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8f9fe876-a73c-431a-89c3-31d8cb048571++8215</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fluid2DObject</string>
+		</dict>
+	</array>
+</dict>
+</plist>
