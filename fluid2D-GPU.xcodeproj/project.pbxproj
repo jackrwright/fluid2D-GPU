@@ -9,6 +9,38 @@
 /* Begin PBXBuildFile section */
 		214DE2DA1E48FD68004B651D /* fluid2D-GPU.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2D91E48FD68004B651D /* fluid2D-GPU.xcassets */; };
 		214DE2DC1E48FEDA004B651D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */; };
+		214DE2E91E490746004B651D /* ColorPickerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 214DE2E11E490746004B651D /* ColorPickerController.mm */; };
+		214DE2EA1E490746004B651D /* CrosshairSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2E21E490746004B651D /* CrosshairSelector.png */; };
+		214DE2EB1E490746004B651D /* CrosshairSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2E31E490746004B651D /* CrosshairSelector@2x.png */; };
+		214DE2EC1E490746004B651D /* GradientView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 214DE2E51E490746004B651D /* GradientView.mm */; };
+		214DE2ED1E490746004B651D /* HorizontalSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2E61E490746004B651D /* HorizontalSelector.png */; };
+		214DE2EE1E490746004B651D /* HorizontalSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2E71E490746004B651D /* HorizontalSelector@2x.png */; };
+		214DE2EF1E490746004B651D /* HueSaturationGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2E81E490746004B651D /* HueSaturationGradient.png */; };
+		214DE30D1E490761004B651D /* fireTex1d.png in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2F11E490761004B651D /* fireTex1d.png */; };
+		214DE30E1E490761004B651D /* Fluid2DObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 214DE2F31E490761004B651D /* Fluid2DObject.mm */; };
+		214DE30F1E490761004B651D /* advect.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2F61E490761004B651D /* advect.fsh */; };
+		214DE3101E490761004B651D /* advect.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2F71E490761004B651D /* advect.plist */; };
+		214DE3111E490761004B651D /* boundary.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2F81E490761004B651D /* boundary.fsh */; };
+		214DE3121E490761004B651D /* boundary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2F91E490761004B651D /* boundary.plist */; };
+		214DE3131E490761004B651D /* display.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2FA1E490761004B651D /* display.fsh */; };
+		214DE3141E490761004B651D /* display.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2FB1E490761004B651D /* display.plist */; };
+		214DE3151E490761004B651D /* display.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2FC1E490761004B651D /* display.vsh */; };
+		214DE3161E490761004B651D /* divergence.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2FD1E490761004B651D /* divergence.fsh */; };
+		214DE3171E490761004B651D /* divergence.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2FE1E490761004B651D /* divergence.plist */; };
+		214DE3181E490761004B651D /* gradient.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE2FF1E490761004B651D /* gradient.fsh */; };
+		214DE3191E490761004B651D /* gradient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3001E490761004B651D /* gradient.plist */; };
+		214DE31A1E490761004B651D /* jacobi.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3011E490761004B651D /* jacobi.fsh */; };
+		214DE31B1E490761004B651D /* jacobi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3021E490761004B651D /* jacobi.plist */; };
+		214DE31C1E490761004B651D /* obstacles.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3031E490761004B651D /* obstacles.fsh */; };
+		214DE31D1E490761004B651D /* obstacles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3041E490761004B651D /* obstacles.plist */; };
+		214DE31E1E490761004B651D /* present.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3051E490761004B651D /* present.fsh */; };
+		214DE31F1E490761004B651D /* present.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3061E490761004B651D /* present.plist */; };
+		214DE3201E490761004B651D /* splat.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3071E490761004B651D /* splat.fsh */; };
+		214DE3211E490761004B651D /* splat.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3081E490761004B651D /* splat.plist */; };
+		214DE3221E490761004B651D /* vortForce.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE3091E490761004B651D /* vortForce.fsh */; };
+		214DE3231E490761004B651D /* vortForce.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE30A1E490761004B651D /* vortForce.plist */; };
+		214DE3241E490761004B651D /* vorticity.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 214DE30B1E490761004B651D /* vorticity.fsh */; };
+		214DE3251E490761004B651D /* vorticity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 214DE30C1E490761004B651D /* vorticity.plist */; };
 		2167E6A816FB9CF300EBA3B9 /* present.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6A616FB9CF300EBA3B9 /* present.plist */; };
 		2167E6A916FB9CF300EBA3B9 /* present.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6A716FB9CF300EBA3B9 /* present.fsh */; };
 		2167E6AC16FB9D0700EBA3B9 /* present.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2167E6AB16FB9D0700EBA3B9 /* present.vsh */; };
@@ -21,55 +53,51 @@
 		2193D80116FA84B5007BA1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D80016FA84B5007BA1BC /* main.m */; };
 		2193D80516FA84B5007BA1BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D80416FA84B5007BA1BC /* AppDelegate.m */; };
 		2193D81216FA84B5007BA1BC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D81116FA84B5007BA1BC /* ViewController.mm */; };
-		2193D82816FA867E007BA1BC /* ColorPickerController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D82016FA867E007BA1BC /* ColorPickerController.mm */; };
-		2193D82916FA867E007BA1BC /* CrosshairSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82116FA867E007BA1BC /* CrosshairSelector.png */; };
-		2193D82A16FA867E007BA1BC /* CrosshairSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82216FA867E007BA1BC /* CrosshairSelector@2x.png */; };
-		2193D82B16FA867E007BA1BC /* GradientView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D82416FA867E007BA1BC /* GradientView.mm */; };
-		2193D82C16FA867E007BA1BC /* HorizontalSelector.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82516FA867E007BA1BC /* HorizontalSelector.png */; };
-		2193D82D16FA867E007BA1BC /* HorizontalSelector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82616FA867E007BA1BC /* HorizontalSelector@2x.png */; };
-		2193D82E16FA867E007BA1BC /* HueSaturationGradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D82716FA867E007BA1BC /* HueSaturationGradient.png */; };
-		2193D85716FA89AC007BA1BC /* fireTex1d.png in Resources */ = {isa = PBXBuildFile; fileRef = 2193D83C16FA89AC007BA1BC /* fireTex1d.png */; };
-		2193D85816FA89AC007BA1BC /* Fluid2DObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D83E16FA89AC007BA1BC /* Fluid2DObject.mm */; };
-		2193D85916FA89AC007BA1BC /* advect.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84016FA89AC007BA1BC /* advect.fsh */; };
-		2193D85A16FA89AC007BA1BC /* advect.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84116FA89AC007BA1BC /* advect.plist */; };
-		2193D85B16FA89AC007BA1BC /* boundary.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84216FA89AC007BA1BC /* boundary.fsh */; };
-		2193D85C16FA89AC007BA1BC /* boundary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84316FA89AC007BA1BC /* boundary.plist */; };
-		2193D85D16FA89AC007BA1BC /* display.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84416FA89AC007BA1BC /* display.fsh */; };
-		2193D85E16FA89AC007BA1BC /* display.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84516FA89AC007BA1BC /* display.plist */; };
-		2193D85F16FA89AC007BA1BC /* display.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84616FA89AC007BA1BC /* display.vsh */; };
-		2193D86016FA89AC007BA1BC /* divergence.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84716FA89AC007BA1BC /* divergence.fsh */; };
-		2193D86116FA89AC007BA1BC /* divergence.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84816FA89AC007BA1BC /* divergence.plist */; };
-		2193D86216FA89AC007BA1BC /* gradient.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84916FA89AC007BA1BC /* gradient.fsh */; };
-		2193D86316FA89AC007BA1BC /* gradient.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84A16FA89AC007BA1BC /* gradient.plist */; };
-		2193D86416FA89AC007BA1BC /* jacobi.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84B16FA89AC007BA1BC /* jacobi.fsh */; };
-		2193D86516FA89AC007BA1BC /* jacobi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84C16FA89AC007BA1BC /* jacobi.plist */; };
-		2193D86616FA89AC007BA1BC /* obstacles.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84D16FA89AC007BA1BC /* obstacles.fsh */; };
-		2193D86716FA89AC007BA1BC /* obstacles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D84E16FA89AC007BA1BC /* obstacles.plist */; };
-		2193D86A16FA89AC007BA1BC /* splat.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85116FA89AC007BA1BC /* splat.fsh */; };
-		2193D86B16FA89AC007BA1BC /* splat.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85216FA89AC007BA1BC /* splat.plist */; };
-		2193D86C16FA89AC007BA1BC /* vortForce.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85316FA89AC007BA1BC /* vortForce.fsh */; };
-		2193D86D16FA89AC007BA1BC /* vortForce.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85416FA89AC007BA1BC /* vortForce.plist */; };
-		2193D86E16FA89AC007BA1BC /* vorticity.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85516FA89AC007BA1BC /* vorticity.fsh */; };
-		2193D86F16FA89AC007BA1BC /* vorticity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2193D85616FA89AC007BA1BC /* vorticity.plist */; };
 		2193D87216FA8D49007BA1BC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2193D87016FA8D49007BA1BC /* ViewController_iPhone.xib */; };
 		2193D87316FA8D49007BA1BC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2193D87116FA8D49007BA1BC /* ViewController_iPad.xib */; };
 		2193D87616FA8DE7007BA1BC /* Finger.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2193D87516FA8DE7007BA1BC /* Finger.mm */; };
 		2193D88216FA8FB2007BA1BC /* Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193D88116FA8FB2007BA1BC /* Shader.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2193D87B16FA8E76007BA1BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */;
-			proxyType = 2;
-			remoteGlobalIDString = F8748A3A0FF221480052D400;
-			remoteInfo = OGLES2Tools;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		214DE2D91E48FD68004B651D /* fluid2D-GPU.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "fluid2D-GPU.xcassets"; sourceTree = SOURCE_ROOT; };
 		214DE2DB1E48FEDA004B651D /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		214DE2E01E490746004B651D /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
+		214DE2E11E490746004B651D /* ColorPickerController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorPickerController.mm; sourceTree = "<group>"; };
+		214DE2E21E490746004B651D /* CrosshairSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrosshairSelector.png; sourceTree = "<group>"; };
+		214DE2E31E490746004B651D /* CrosshairSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrosshairSelector@2x.png"; sourceTree = "<group>"; };
+		214DE2E41E490746004B651D /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		214DE2E51E490746004B651D /* GradientView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GradientView.mm; sourceTree = "<group>"; };
+		214DE2E61E490746004B651D /* HorizontalSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalSelector.png; sourceTree = "<group>"; };
+		214DE2E71E490746004B651D /* HorizontalSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HorizontalSelector@2x.png"; sourceTree = "<group>"; };
+		214DE2E81E490746004B651D /* HueSaturationGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HueSaturationGradient.png; sourceTree = "<group>"; };
+		214DE2F11E490761004B651D /* fireTex1d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireTex1d.png; sourceTree = "<group>"; };
+		214DE2F21E490761004B651D /* Fluid2DObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fluid2DObject.h; sourceTree = "<group>"; };
+		214DE2F31E490761004B651D /* Fluid2DObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Fluid2DObject.mm; sourceTree = "<group>"; };
+		214DE2F41E490761004B651D /* half.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = half.h; sourceTree = "<group>"; };
+		214DE2F61E490761004B651D /* advect.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = advect.fsh; sourceTree = "<group>"; };
+		214DE2F71E490761004B651D /* advect.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = advect.plist; sourceTree = "<group>"; };
+		214DE2F81E490761004B651D /* boundary.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = boundary.fsh; sourceTree = "<group>"; };
+		214DE2F91E490761004B651D /* boundary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = boundary.plist; sourceTree = "<group>"; };
+		214DE2FA1E490761004B651D /* display.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = display.fsh; sourceTree = "<group>"; };
+		214DE2FB1E490761004B651D /* display.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = display.plist; sourceTree = "<group>"; };
+		214DE2FC1E490761004B651D /* display.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = display.vsh; sourceTree = "<group>"; };
+		214DE2FD1E490761004B651D /* divergence.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = divergence.fsh; sourceTree = "<group>"; };
+		214DE2FE1E490761004B651D /* divergence.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = divergence.plist; sourceTree = "<group>"; };
+		214DE2FF1E490761004B651D /* gradient.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = gradient.fsh; sourceTree = "<group>"; };
+		214DE3001E490761004B651D /* gradient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gradient.plist; sourceTree = "<group>"; };
+		214DE3011E490761004B651D /* jacobi.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = jacobi.fsh; sourceTree = "<group>"; };
+		214DE3021E490761004B651D /* jacobi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jacobi.plist; sourceTree = "<group>"; };
+		214DE3031E490761004B651D /* obstacles.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = obstacles.fsh; sourceTree = "<group>"; };
+		214DE3041E490761004B651D /* obstacles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = obstacles.plist; sourceTree = "<group>"; };
+		214DE3051E490761004B651D /* present.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = present.fsh; sourceTree = "<group>"; };
+		214DE3061E490761004B651D /* present.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = present.plist; sourceTree = "<group>"; };
+		214DE3071E490761004B651D /* splat.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = splat.fsh; sourceTree = "<group>"; };
+		214DE3081E490761004B651D /* splat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = splat.plist; sourceTree = "<group>"; };
+		214DE3091E490761004B651D /* vortForce.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vortForce.fsh; sourceTree = "<group>"; };
+		214DE30A1E490761004B651D /* vortForce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vortForce.plist; sourceTree = "<group>"; };
+		214DE30B1E490761004B651D /* vorticity.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vorticity.fsh; sourceTree = "<group>"; };
+		214DE30C1E490761004B651D /* vorticity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vorticity.plist; sourceTree = "<group>"; };
 		2167E6A616FB9CF300EBA3B9 /* present.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = present.plist; sourceTree = "<group>"; };
 		2167E6A716FB9CF300EBA3B9 /* present.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = present.fsh; sourceTree = "<group>"; };
 		2167E6AB16FB9D0700EBA3B9 /* present.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = present.vsh; sourceTree = "<group>"; };
@@ -87,48 +115,13 @@
 		2193D80416FA84B5007BA1BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2193D81016FA84B5007BA1BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2193D81116FA84B5007BA1BC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
-		2193D81F16FA867E007BA1BC /* ColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerController.h; sourceTree = "<group>"; };
-		2193D82016FA867E007BA1BC /* ColorPickerController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorPickerController.mm; sourceTree = "<group>"; };
-		2193D82116FA867E007BA1BC /* CrosshairSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrosshairSelector.png; sourceTree = "<group>"; };
-		2193D82216FA867E007BA1BC /* CrosshairSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CrosshairSelector@2x.png"; sourceTree = "<group>"; };
-		2193D82316FA867E007BA1BC /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
-		2193D82416FA867E007BA1BC /* GradientView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GradientView.mm; sourceTree = "<group>"; };
-		2193D82516FA867E007BA1BC /* HorizontalSelector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HorizontalSelector.png; sourceTree = "<group>"; };
-		2193D82616FA867E007BA1BC /* HorizontalSelector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HorizontalSelector@2x.png"; sourceTree = "<group>"; };
-		2193D82716FA867E007BA1BC /* HueSaturationGradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HueSaturationGradient.png; sourceTree = "<group>"; };
-		2193D83C16FA89AC007BA1BC /* fireTex1d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireTex1d.png; sourceTree = "<group>"; };
-		2193D83D16FA89AC007BA1BC /* Fluid2DObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fluid2DObject.h; sourceTree = "<group>"; };
-		2193D83E16FA89AC007BA1BC /* Fluid2DObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Fluid2DObject.mm; sourceTree = "<group>"; };
-		2193D84016FA89AC007BA1BC /* advect.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = advect.fsh; sourceTree = "<group>"; };
-		2193D84116FA89AC007BA1BC /* advect.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = advect.plist; sourceTree = "<group>"; };
-		2193D84216FA89AC007BA1BC /* boundary.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = boundary.fsh; sourceTree = "<group>"; };
-		2193D84316FA89AC007BA1BC /* boundary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = boundary.plist; sourceTree = "<group>"; };
-		2193D84416FA89AC007BA1BC /* display.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = display.fsh; sourceTree = "<group>"; };
-		2193D84516FA89AC007BA1BC /* display.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = display.plist; sourceTree = "<group>"; };
-		2193D84616FA89AC007BA1BC /* display.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = display.vsh; sourceTree = "<group>"; };
-		2193D84716FA89AC007BA1BC /* divergence.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = divergence.fsh; sourceTree = "<group>"; };
-		2193D84816FA89AC007BA1BC /* divergence.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = divergence.plist; sourceTree = "<group>"; };
-		2193D84916FA89AC007BA1BC /* gradient.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = gradient.fsh; sourceTree = "<group>"; };
-		2193D84A16FA89AC007BA1BC /* gradient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gradient.plist; sourceTree = "<group>"; };
-		2193D84B16FA89AC007BA1BC /* jacobi.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = jacobi.fsh; sourceTree = "<group>"; };
-		2193D84C16FA89AC007BA1BC /* jacobi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = jacobi.plist; sourceTree = "<group>"; };
-		2193D84D16FA89AC007BA1BC /* obstacles.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = obstacles.fsh; sourceTree = "<group>"; };
-		2193D84E16FA89AC007BA1BC /* obstacles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = obstacles.plist; sourceTree = "<group>"; };
-		2193D85116FA89AC007BA1BC /* splat.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = splat.fsh; sourceTree = "<group>"; };
-		2193D85216FA89AC007BA1BC /* splat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = splat.plist; sourceTree = "<group>"; };
-		2193D85316FA89AC007BA1BC /* vortForce.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vortForce.fsh; sourceTree = "<group>"; };
-		2193D85416FA89AC007BA1BC /* vortForce.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vortForce.plist; sourceTree = "<group>"; };
-		2193D85516FA89AC007BA1BC /* vorticity.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vorticity.fsh; sourceTree = "<group>"; };
-		2193D85616FA89AC007BA1BC /* vorticity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vorticity.plist; sourceTree = "<group>"; };
 		2193D87016FA8D49007BA1BC /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
 		2193D87116FA8D49007BA1BC /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
 		2193D87416FA8DE7007BA1BC /* Finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finger.h; sourceTree = "<group>"; };
 		2193D87516FA8DE7007BA1BC /* Finger.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Finger.mm; sourceTree = "<group>"; };
-		2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OGLES2Tools.xcode; path = ../SDKPackage_OGLES2/Tools/OGLES2/Build/iPhone/OGLES2Tools.xcode; sourceTree = "<group>"; };
 		2193D88016FA8FB1007BA1BC /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
 		2193D88116FA8FB2007BA1BC /* Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shader.m; sourceTree = "<group>"; };
 		2193D88316FA8FD6007BA1BC /* glUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
-		2193D88416FA904A007BA1BC /* half.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = half.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,13 +140,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214DE2DF1E490746004B651D /* Color Picker */ = {
+			isa = PBXGroup;
+			children = (
+				214DE2E01E490746004B651D /* ColorPickerController.h */,
+				214DE2E11E490746004B651D /* ColorPickerController.mm */,
+				214DE2E21E490746004B651D /* CrosshairSelector.png */,
+				214DE2E31E490746004B651D /* CrosshairSelector@2x.png */,
+				214DE2E41E490746004B651D /* GradientView.h */,
+				214DE2E51E490746004B651D /* GradientView.mm */,
+				214DE2E61E490746004B651D /* HorizontalSelector.png */,
+				214DE2E71E490746004B651D /* HorizontalSelector@2x.png */,
+				214DE2E81E490746004B651D /* HueSaturationGradient.png */,
+			);
+			path = "Color Picker";
+			sourceTree = "<group>";
+		};
+		214DE2F01E490761004B651D /* Fluid2DObject */ = {
+			isa = PBXGroup;
+			children = (
+				214DE2F11E490761004B651D /* fireTex1d.png */,
+				214DE2F21E490761004B651D /* Fluid2DObject.h */,
+				214DE2F31E490761004B651D /* Fluid2DObject.mm */,
+				214DE2F41E490761004B651D /* half.h */,
+				214DE2F51E490761004B651D /* Shaders */,
+			);
+			path = Fluid2DObject;
+			sourceTree = "<group>";
+		};
+		214DE2F51E490761004B651D /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				214DE2F61E490761004B651D /* advect.fsh */,
+				214DE2F71E490761004B651D /* advect.plist */,
+				214DE2F81E490761004B651D /* boundary.fsh */,
+				214DE2F91E490761004B651D /* boundary.plist */,
+				214DE2FA1E490761004B651D /* display.fsh */,
+				214DE2FB1E490761004B651D /* display.plist */,
+				214DE2FC1E490761004B651D /* display.vsh */,
+				214DE2FD1E490761004B651D /* divergence.fsh */,
+				214DE2FE1E490761004B651D /* divergence.plist */,
+				214DE2FF1E490761004B651D /* gradient.fsh */,
+				214DE3001E490761004B651D /* gradient.plist */,
+				214DE3011E490761004B651D /* jacobi.fsh */,
+				214DE3021E490761004B651D /* jacobi.plist */,
+				214DE3031E490761004B651D /* obstacles.fsh */,
+				214DE3041E490761004B651D /* obstacles.plist */,
+				214DE3051E490761004B651D /* present.fsh */,
+				214DE3061E490761004B651D /* present.plist */,
+				214DE3071E490761004B651D /* splat.fsh */,
+				214DE3081E490761004B651D /* splat.plist */,
+				214DE3091E490761004B651D /* vortForce.fsh */,
+				214DE30A1E490761004B651D /* vortForce.plist */,
+				214DE30B1E490761004B651D /* vorticity.fsh */,
+				214DE30C1E490761004B651D /* vorticity.plist */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		2193D7E416FA84B5007BA1BC = {
 			isa = PBXGroup;
 			children = (
-				2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */,
 				2193D7FA16FA84B5007BA1BC /* fluid2D-GPU */,
-				2193D81E16FA867E007BA1BC /* Color Picker */,
-				2193D83B16FA89AC007BA1BC /* Fluid2DObject */,
+				214DE2DF1E490746004B651D /* Color Picker */,
+				214DE2F01E490761004B651D /* Fluid2DObject */,
 				2193D7EF16FA84B5007BA1BC /* Frameworks */,
 				2193D7EE16FA84B5007BA1BC /* Products */,
 			);
@@ -214,72 +264,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2193D81E16FA867E007BA1BC /* Color Picker */ = {
-			isa = PBXGroup;
-			children = (
-				2193D81F16FA867E007BA1BC /* ColorPickerController.h */,
-				2193D82016FA867E007BA1BC /* ColorPickerController.mm */,
-				2193D82116FA867E007BA1BC /* CrosshairSelector.png */,
-				2193D82216FA867E007BA1BC /* CrosshairSelector@2x.png */,
-				2193D82316FA867E007BA1BC /* GradientView.h */,
-				2193D82416FA867E007BA1BC /* GradientView.mm */,
-				2193D82516FA867E007BA1BC /* HorizontalSelector.png */,
-				2193D82616FA867E007BA1BC /* HorizontalSelector@2x.png */,
-				2193D82716FA867E007BA1BC /* HueSaturationGradient.png */,
-			);
-			name = "Color Picker";
-			path = "../Color Picker";
-			sourceTree = "<group>";
-		};
-		2193D83B16FA89AC007BA1BC /* Fluid2DObject */ = {
-			isa = PBXGroup;
-			children = (
-				2193D83D16FA89AC007BA1BC /* Fluid2DObject.h */,
-				2193D83E16FA89AC007BA1BC /* Fluid2DObject.mm */,
-				2193D83C16FA89AC007BA1BC /* fireTex1d.png */,
-				2193D88416FA904A007BA1BC /* half.h */,
-				2193D83F16FA89AC007BA1BC /* Shaders */,
-			);
-			name = Fluid2DObject;
-			path = ../Fluid2DObject;
-			sourceTree = "<group>";
-		};
-		2193D83F16FA89AC007BA1BC /* Shaders */ = {
-			isa = PBXGroup;
-			children = (
-				2193D84016FA89AC007BA1BC /* advect.fsh */,
-				2193D84116FA89AC007BA1BC /* advect.plist */,
-				2193D84216FA89AC007BA1BC /* boundary.fsh */,
-				2193D84316FA89AC007BA1BC /* boundary.plist */,
-				2193D84416FA89AC007BA1BC /* display.fsh */,
-				2193D84516FA89AC007BA1BC /* display.plist */,
-				2193D84616FA89AC007BA1BC /* display.vsh */,
-				2193D84716FA89AC007BA1BC /* divergence.fsh */,
-				2193D84816FA89AC007BA1BC /* divergence.plist */,
-				2193D84916FA89AC007BA1BC /* gradient.fsh */,
-				2193D84A16FA89AC007BA1BC /* gradient.plist */,
-				2193D84B16FA89AC007BA1BC /* jacobi.fsh */,
-				2193D84C16FA89AC007BA1BC /* jacobi.plist */,
-				2193D84D16FA89AC007BA1BC /* obstacles.fsh */,
-				2193D84E16FA89AC007BA1BC /* obstacles.plist */,
-				2193D85116FA89AC007BA1BC /* splat.fsh */,
-				2193D85216FA89AC007BA1BC /* splat.plist */,
-				2193D85316FA89AC007BA1BC /* vortForce.fsh */,
-				2193D85416FA89AC007BA1BC /* vortForce.plist */,
-				2193D85516FA89AC007BA1BC /* vorticity.fsh */,
-				2193D85616FA89AC007BA1BC /* vorticity.plist */,
-			);
-			path = Shaders;
-			sourceTree = "<group>";
-		};
-		2193D87816FA8E76007BA1BC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2193D87C16FA8E76007BA1BC /* libOGLES2Tools.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -324,12 +308,6 @@
 			mainGroup = 2193D7E416FA84B5007BA1BC;
 			productRefGroup = 2193D7EE16FA84B5007BA1BC /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 2193D87816FA8E76007BA1BC /* Products */;
-					ProjectRef = 2193D87716FA8E76007BA1BC /* OGLES2Tools.xcode */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2193D7EC16FA84B5007BA1BC /* fluid2D-GPU */,
@@ -337,56 +315,48 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		2193D87C16FA8E76007BA1BC /* libOGLES2Tools.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOGLES2Tools.a;
-			remoteRef = 2193D87B16FA8E76007BA1BC /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		2193D7EB16FA84B5007BA1BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2193D7FF16FA84B5007BA1BC /* InfoPlist.strings in Resources */,
-				2193D85916FA89AC007BA1BC /* advect.fsh in Resources */,
-				2193D85B16FA89AC007BA1BC /* boundary.fsh in Resources */,
-				2193D85D16FA89AC007BA1BC /* display.fsh in Resources */,
-				2193D85F16FA89AC007BA1BC /* display.vsh in Resources */,
-				2193D86016FA89AC007BA1BC /* divergence.fsh in Resources */,
-				2193D86216FA89AC007BA1BC /* gradient.fsh in Resources */,
-				2193D86416FA89AC007BA1BC /* jacobi.fsh in Resources */,
+				214DE31C1E490761004B651D /* obstacles.fsh in Resources */,
+				214DE3171E490761004B651D /* divergence.plist in Resources */,
+				214DE3121E490761004B651D /* boundary.plist in Resources */,
+				214DE30D1E490761004B651D /* fireTex1d.png in Resources */,
+				214DE3251E490761004B651D /* vorticity.plist in Resources */,
+				214DE3211E490761004B651D /* splat.plist in Resources */,
 				214DE2DC1E48FEDA004B651D /* Launch Screen.storyboard in Resources */,
-				2193D86616FA89AC007BA1BC /* obstacles.fsh in Resources */,
+				214DE31B1E490761004B651D /* jacobi.plist in Resources */,
+				214DE31E1E490761004B651D /* present.fsh in Resources */,
+				214DE2EB1E490746004B651D /* CrosshairSelector@2x.png in Resources */,
+				214DE31D1E490761004B651D /* obstacles.plist in Resources */,
+				214DE3161E490761004B651D /* divergence.fsh in Resources */,
 				214DE2DA1E48FD68004B651D /* fluid2D-GPU.xcassets in Resources */,
-				2193D86A16FA89AC007BA1BC /* splat.fsh in Resources */,
-				2193D86C16FA89AC007BA1BC /* vortForce.fsh in Resources */,
-				2193D86E16FA89AC007BA1BC /* vorticity.fsh in Resources */,
-				2193D82916FA867E007BA1BC /* CrosshairSelector.png in Resources */,
-				2193D82A16FA867E007BA1BC /* CrosshairSelector@2x.png in Resources */,
-				2193D82C16FA867E007BA1BC /* HorizontalSelector.png in Resources */,
-				2193D82D16FA867E007BA1BC /* HorizontalSelector@2x.png in Resources */,
-				2193D82E16FA867E007BA1BC /* HueSaturationGradient.png in Resources */,
-				2193D85716FA89AC007BA1BC /* fireTex1d.png in Resources */,
-				2193D85A16FA89AC007BA1BC /* advect.plist in Resources */,
-				2193D85C16FA89AC007BA1BC /* boundary.plist in Resources */,
-				2193D85E16FA89AC007BA1BC /* display.plist in Resources */,
-				2193D86116FA89AC007BA1BC /* divergence.plist in Resources */,
-				2193D86316FA89AC007BA1BC /* gradient.plist in Resources */,
-				2193D86516FA89AC007BA1BC /* jacobi.plist in Resources */,
-				2193D86716FA89AC007BA1BC /* obstacles.plist in Resources */,
-				2193D86B16FA89AC007BA1BC /* splat.plist in Resources */,
-				2193D86D16FA89AC007BA1BC /* vortForce.plist in Resources */,
-				2193D86F16FA89AC007BA1BC /* vorticity.plist in Resources */,
+				214DE2EE1E490746004B651D /* HorizontalSelector@2x.png in Resources */,
+				214DE31A1E490761004B651D /* jacobi.fsh in Resources */,
+				214DE3101E490761004B651D /* advect.plist in Resources */,
+				214DE3231E490761004B651D /* vortForce.plist in Resources */,
+				214DE31F1E490761004B651D /* present.plist in Resources */,
+				214DE3181E490761004B651D /* gradient.fsh in Resources */,
+				214DE3131E490761004B651D /* display.fsh in Resources */,
+				214DE3151E490761004B651D /* display.vsh in Resources */,
+				214DE2EA1E490746004B651D /* CrosshairSelector.png in Resources */,
+				214DE3141E490761004B651D /* display.plist in Resources */,
+				214DE30F1E490761004B651D /* advect.fsh in Resources */,
+				214DE3191E490761004B651D /* gradient.plist in Resources */,
 				2193D87216FA8D49007BA1BC /* ViewController_iPhone.xib in Resources */,
+				214DE3201E490761004B651D /* splat.fsh in Resources */,
 				2193D87316FA8D49007BA1BC /* ViewController_iPad.xib in Resources */,
 				2167E6A816FB9CF300EBA3B9 /* present.plist in Resources */,
+				214DE3111E490761004B651D /* boundary.fsh in Resources */,
 				2167E6A916FB9CF300EBA3B9 /* present.fsh in Resources */,
+				214DE2ED1E490746004B651D /* HorizontalSelector.png in Resources */,
+				214DE2EF1E490746004B651D /* HueSaturationGradient.png in Resources */,
+				214DE3221E490761004B651D /* vortForce.fsh in Resources */,
 				2167E6AC16FB9D0700EBA3B9 /* present.vsh in Resources */,
+				214DE3241E490761004B651D /* vorticity.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +369,10 @@
 			files = (
 				2193D80116FA84B5007BA1BC /* main.m in Sources */,
 				2193D80516FA84B5007BA1BC /* AppDelegate.m in Sources */,
+				214DE2EC1E490746004B651D /* GradientView.mm in Sources */,
+				214DE30E1E490761004B651D /* Fluid2DObject.mm in Sources */,
+				214DE2E91E490746004B651D /* ColorPickerController.mm in Sources */,
 				2193D81216FA84B5007BA1BC /* ViewController.mm in Sources */,
-				2193D82816FA867E007BA1BC /* ColorPickerController.mm in Sources */,
-				2193D82B16FA867E007BA1BC /* GradientView.mm in Sources */,
-				2193D85816FA89AC007BA1BC /* Fluid2DObject.mm in Sources */,
 				2193D87616FA8DE7007BA1BC /* Finger.mm in Sources */,
 				2193D88216FA8FB2007BA1BC /* Shader.m in Sources */,
 			);

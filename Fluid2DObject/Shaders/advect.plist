@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Attributes</key>
+	<array>
+		<string>position</string>
+		<string>inTexCoord</string>
+	</array>
+	<key>Files</key>
+	<array>
+		<string>display.vsh</string>
+		<string>advect.fsh</string>
+	</array>
+	<key>Uniforms</key>
+	<array>
+		<string>u</string>
+		<string>x</string>
+		<string>timestep</string>
+		<string>modelViewProjectionMatrix</string>
+		<string>rdx</string>
+		<string>dissipation</string>
+		<string>gravity</string>
+		<string>kR</string>
+		<string>obstacles</string>
+		<string>temperature</string>
+		<string>kFa</string>
+		<string>kFb</string>
+		<string>kT</string>
+		<string>density</string>
+	</array>
+</dict>
+</plist>
