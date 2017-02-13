@@ -6,3 +6,6 @@ Initially it was working flawlessly, but with the advent of newer GPU hardware t
 Because of the bug, I temporarily disabled the "ink" mode and set the initial fluid characteristic to "Smoke". "Fire" works as well, since it also has a brief life.
 
 Disclaimer: This is not an example of good iOS app, but that wasn't the point :)
+
+References:
+* [GPU Gems, Chapter 30. "Real-Time Simulation and Rendering of 3D Fluids"] (http://http.developer.nvidia.com/GPUGems3/gpugems3_ch30.html)
