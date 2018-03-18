@@ -11,3 +11,4 @@ References:
 * [GPU Gems, Chapter 38. "Fast Fluid Dynamics Simulation on the GPU"] (https://developer.nvidia.com/gpugems/GPUGems/gpugems_ch38.html)
 * [GPU Gems 3, Chapter 30. "Real-Time Simulation and Rendering of 3D Fluids"] (https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch30.html)
 * [Nguyen, D., R. Fedkiw, and H. W. Jensen. 2002. "Physically Based Modeling and Animation of Fire." In ACM Transactions on Graphics (Proceedings of SIGGRAPH 2002) 21(3).] (http://dl.acm.org/citation.cfm?id=566643)
+* [Jos Stam, 1999. "Real-Time Fluid Dynamics for Games"] (http://www.intpowertechcorp.com/GDC03.pdf)
